@@ -1,5 +1,3 @@
-VFfuncion2(0.00000001, 100000)
-
 VFfuncion2 = function(umbral, nIter){
   i=0
   VF0=0
@@ -16,3 +14,5 @@ VFfuncion2 = function(umbral, nIter){
     print(paste("Se llegó al valor ",VF0," con el umbral ",umbral))
   }
 }
+
+VFfuncion2(0.00000001, 100000)
